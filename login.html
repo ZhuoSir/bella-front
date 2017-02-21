@@ -25,7 +25,7 @@
 
     <div id="login">
         <h1>Bella</h1>
-        <form method="post">
+        <form method="post" action="domain.html">
             <input type="text" placeholder="用户名" name="u"/>
             <input type="password" placeholder="密码" name="p"/>
             <button class="but but-blue" type="submit">登录</button>
@@ -34,8 +34,16 @@
         </form>
     </div>
 
-<!-- 包括所有已编译的插件 -->
-<script src="bootstrap/js/bootstrap.min.js"></script>
+    <!-- 包括所有已编译的插件 -->
+    <script src="js/jquery.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
 
+    <script type="text/javascript">
+
+        $(".reg").click(function () {
+            window.location.href = "register.html";
+        });
+
+    </script>
 </body>
 </html>
