@@ -1,0 +1,76 @@
+.post-title {
+	font-size: 20px;
+    color: #666;
+}
+
+.post-title:hover {
+	text-decoration:none;
+	color: #999;
+}
+
+.post-fn {
+
+}
+
+.post-fn-flex {
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.avater {
+	float: left;
+	height: 38px;
+    width: 38px;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+
+.avater-big {
+	/*border: 1px solid #EEEEEE;*/
+    height: 210px;
+    width: 210px;
+    border-radius: 6px;
+}
+
+#avaterUrlDom {
+	margin-top: 30px;
+}
+
+.artical-avater {
+	width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.artical-list .author {
+	color: #666;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.artical-list .author:hover {
+	text-decoration:none;
+	color: #999;
+}
+
+.simple-artical {
+	margin-top: 5px;
+    color: #999;
+    display: block;
+    text-decoration: none;
+}
+
+.simple-artical:hover {
+	color: #666;
+	text-decoration:none;
+}
+
+.content-set {
+	margin: 10px 30px;
+	font-family: "Helvetica Neue","Luxi Sans","DejaVu Sans",Tahoma,"Hiragino Sans GB","Microsoft Yahei",sans-serif;
+    word-wrap: break-word;
+    overflow: auto;
+    line-height: 1.5;
+    font-size: 16px;
+    word-break: break-all;
+}
